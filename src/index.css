@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  background-color: rgb(33, 53, 46);
+  color: white;
+}
+
+.navabr{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  
+}
+
+nav a{
+  text-decoration: none;
+  border-bottom: 1px solid rgb(89, 171, 126);
+  color: white !important;
+}
